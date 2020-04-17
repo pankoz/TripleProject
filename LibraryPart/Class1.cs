@@ -33,7 +33,7 @@ namespace LibraryPart
                 { 
                     result = "It's a Console!";
                 }
-                result += "This is dll from master branch";
+                result += "This is dll from master 3 commit branch";
             }
             catch (Exception exc)
             {
