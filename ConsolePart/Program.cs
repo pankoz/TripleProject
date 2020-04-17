@@ -11,7 +11,7 @@ namespace ConsolePart
         static void Main(string[] args)
         {
             LibraryPart.Class1 selector = new LibraryPart.Class1();
-            Console.Title = "MASTER BRANCH";
+            Console.Title = "SECOND BRANCH";
             Console.WriteLine(selector.TestMethod());
             Console.ReadLine();
 
