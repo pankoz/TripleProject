@@ -14,11 +14,13 @@ namespace WebPart
         protected void Page_Load(object sender, EventArgs e)
         {
             txbx_Output.Text = selector.TestMethod();
+            txbx_Output.Text += "FROM MASTER";
         }
 
         protected void btn_CallMethodDll_Click(object sender, EventArgs e)
         {
             txbx_Output.Text = selector.TestMethod();
+            txbx_Output.Text += "FROM MASTER";
         }
     }
 }

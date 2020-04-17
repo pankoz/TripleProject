@@ -27,15 +27,13 @@ namespace LibraryPart
                 if (IsWebApp)
                 { 
                     result = "It's a Web!";
-                    Console.WriteLine("OK");
                 }
                 
                 if (IsConApp)
                 { 
                     result = "It's a Console!";
-                    Console.WriteLine("OK");
                 }
-                
+                result += "This is dll from master branch";
             }
             catch (Exception exc)
             {
